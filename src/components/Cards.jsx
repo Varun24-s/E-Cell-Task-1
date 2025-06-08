@@ -26,7 +26,7 @@ export default function CardPage({ users, deleteUser, setEditUser }) {
           <Link to="/" className="bg-yellow-600 hover:bg-yellow-700 px-2 py-2 text-sm md:px-4 md:py-2 md:text-base rounded">Back to Home</Link>
         </div>
   
-        <div className="grid md:grid-cols-3 min-h-screen mt-20 sm:grid-cols-2 gap-6 w-[80%] md:w-[75%] mx-auto">
+        <div className="grid md:grid-cols-3  mt-20 sm:grid-cols-2 gap-6 w-[80%] md:w-[75%] mx-auto">
           {users.map((user) => (
             <div key={user.id} className="bg-[#F5BC72]/10 glass-effect rounded-xl shadow-lg p-4 text-center">
               <img src={user.image} alt="Profile" className="w-35 h-35 mt-6 mx-auto rounded-full border-2 border-yellow-100 mb-4 object-cover" />

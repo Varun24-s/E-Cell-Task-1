@@ -34,7 +34,7 @@ export default function App() {
 
   return (
     <Router>
-      <ToastContainer position="top-center" autoClose={3000} />
+      <ToastContainer position="top-center" autoClose={1000} />
       <Routes>
         <Route path="/" element={<Home addUser={addUser} clearEdit={clearEdit} editUser={editUser} />} />
         <Route path="/team" element={<CardPage users={users} deleteUser={deleteUser} setEditUser={setEditUser} />} />
