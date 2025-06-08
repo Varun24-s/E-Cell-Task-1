@@ -6,7 +6,9 @@ export default function CardPage({ users, deleteUser, setEditUser }) {
       return (
         <div className="min-h-screen bg-linear-to-tr from-black to-[#F5BC72] text-[#E8E8E8] p-4 md:p-8">
         <div className="flex justify-between items-center mb-6 ">
-          <img src="./logo.webp" alt="logo" className="w-15 h-15 md:w-20 md:h-20" />
+            <a href="/">  
+              <img src="./logo.webp" alt="logo" className="w-15 h-15 md:w-20 md:h-20" />
+            <a/>
           <h1 className="text-lg font-bold md:text-3xl ">Team Members</h1>
           <Link to="/" className="bg-yellow-600 hover:bg-yellow-700 px-2 py-2 text-sm md:px-4 md:py-2 md:text-base rounded">Back to Home</Link>
         </div>
